@@ -1,0 +1,15 @@
+[package]
+name = "maclikeclipboard"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clipboard-ext = "=0.2.0"
+
+[[bin]]
+name = "pbcopy"
+path = "src/pbcopy.rs"
+
+[[bin]]
+name = "pbpaste"
+path = "src/pbpaste.rs"
